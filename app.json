@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "olve",
+    "slug": "snack-bb7f50b0-6d0f-486a-8625-d24181c57416",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "width": 200,
+      "height": 200,
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "description": "A vague implementation of a drug dispenser."
+  }
+}

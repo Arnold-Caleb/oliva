@@ -1,0 +1,97 @@
+import { StyleSheet, Dimensions } from "react-native";
+
+var width = Dimensions.get("window").width;
+var height = Dimensions.get("window").height;
+
+export const overviewStyles = StyleSheet.create({
+  container: {
+    flex: 1,
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "flex-start",
+    paddingTop: 20,
+    backgroundColor: "#fff",
+  },
+  header: {
+    flex: 1,
+    padding: 20,
+    borderRadius: 20,
+    shadowColor: "#ccc",
+    shadowOffset: {
+      heigth: 1,
+      width: 1,
+    },
+    shadowRadius: 20,
+    shadowOpacity: 0.5,
+  },
+  heading: {
+    alignSelf: "flex-start",
+    paddingTop: 40,
+    paddingLeft: 20,
+    paddingRight: 60,
+    paddingBottom: 40,
+    fontFamily: "Open-Sans",
+    fontSize: 30,
+    color: "#59484d",
+  },
+  doc: {
+    borderRadius: 20,
+    width: width / 0.75 - 100,
+    alignSelf: "center",
+    height: height / 2,
+  },
+  touchableSection: {
+    backgroundColor: "#54a4cc",
+    borderRadius: 30,
+    margin: 10,
+    justifyContent: "center",
+    alignItems: "center",
+    marginTop: 20,
+    marginBottom: 20,
+    padding: 8,
+    width: width / 2,
+    height: height / 18,
+  },
+  touchableSectionText: {
+    fontSize: 18,
+    color: "#f2f4f7",
+    fontFamily: "Open-Sans",
+  },
+  pageContent: {
+    flex: 1,
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: "#f7fafa",
+    padding: 20,
+    marginTop: 20,
+    borderWidth: 2,
+    borderBottomWidth: 0,
+    borderStyle: "solid",
+    borderColor: "#ebebeb",
+    borderRadius: 50,
+    margin: 5,
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 11,
+    },
+    shadowOpacity: 0.57,
+    shadowRadius: 15.19,
+    elevation: 1,
+  },
+  contentHeader: {
+    fontSize: 30,
+    fontFamily: "Open-Sans",
+    color: "#1c1b1a",
+    marginBottom: 50,
+    marginTop: 20,
+    fontWeight: "600",
+  },
+  content: {
+    fontSize: 20,
+    fontFamily: "Open-Sans",
+    color: "#858073",
+    textAlign: "center",
+    marginBottom: 20,
+  },
+});
